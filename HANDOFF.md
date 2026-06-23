@@ -1,6 +1,6 @@
 # Handoff
 
-Initialized the git repository, created the initial commit, pushed it to the remote origin, compiled the Illuminati card game knowledge base, built the reference website, extracted card scans, ingested playtime and session transcripts, and created comprehensive design specifications.
+Initialized the git repository, created the initial commit, pushed it to the remote origin, compiled the Illuminati card game knowledge base, built the reference website, extracted card scans, ingested playtime and session transcripts, created comprehensive design specifications, and updated the website to exclude the new card suggestions.
 
 ## Actions Completed
 1. Created `README.md` with "# projecti".
@@ -50,3 +50,5 @@ Initialized the git repository, created the initial commit, pushed it to the rem
 35. Modified `website/compile_kb.js` to include the four new specifications in the sidebar navigation layout ordering.
 36. Executed Node compilation to build the expanded articles database into `website/data.js`.
 37. Ran browser subagent verification tests at `http://localhost:8000/` to confirm proper sidebar order, rendering, formatting, and layout for the new specification files, capturing validation screenshots.
+38. Excluded `new_cards.md` and `new_cards_suggested.md` from the website compilation configuration in `website/compile_kb.js` and re-built `website/data.js` to remove them from the public website's database and sidebar navigation.
+39. Ran browser subagent verification tests to confirm the successful removal of the card ideas from the live website sidebar.

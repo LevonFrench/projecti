@@ -57,7 +57,7 @@ function compile() {
     }
     
     const files = fs.readdirSync(kbDir)
-        .filter(f => f.endsWith('.md') && f !== '_index.md');
+        .filter(f => f.endsWith('.md') && f !== '_index.md' && f !== 'new_cards.md' && f !== 'new_cards_suggested.md');
         
     const articles = [];
     
@@ -87,9 +87,7 @@ function compile() {
         'specials',
         'inwo',
         'expansions',
-        'strategies',
-        'new_cards',
-        'new_cards_suggested'
+        'strategies'
     ];
     
     articles.sort((a, b) => {
