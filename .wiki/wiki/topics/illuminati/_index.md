@@ -21,6 +21,7 @@ Our modern adaptation utilizes the strategic alignment principles, power hierarc
 - [[strategies|Strategy & Tactics Guide]] ([Strategy & Tactics Guide](strategies.md)) - Strategic and tactical guide detailing playstyles, topologies, and bidding war strategies.
 - [[history_and_creator|History and Creator Reference]] ([History and Creator Reference](history_and_creator.md)) - Biography of Steve Jackson, founding of SJG, and the landmark 1990 Secret Service raid.
 - [[editions_and_variants|Editions and Variants Reference]] ([Editions and Variants Reference](editions_and_variants.md)) - Chronology of board game editions, CCGs, standalones, and digital releases.
+- [[card_counts_and_lists|Card Counts and Lists by Edition]] ([Card Counts and Lists by Edition](card_counts_and_lists.md)) - Comprehensive details on card counts and specific rosters for all historical editions and expansions.
 - [[new_cards|New Card Ideas]] ([New Card Ideas](new_cards.md)) - A researched catalog of potential new cards sourced from modern internet culture, politics, and conspiracy theories.
 - [[new_cards_suggested|Suggested New Card Ideas]] ([Suggested New Card Ideas](new_cards_suggested.md)) - An expanded, researched catalog of additional modern conspiracy and internet culture card concepts.
 

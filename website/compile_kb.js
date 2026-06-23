@@ -76,6 +76,7 @@ function compile() {
     const order = [
         'history_and_creator',
         'editions_and_variants',
+        'card_counts_and_lists',
         'factions',
         'mechanics',
         'groups',
