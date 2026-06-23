@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illuminati Game Reference Archive - Steve Jackson Games</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A comprehensive mechanical, strategic, and historical archive of Steve Jackson's classic card game Illuminati and itsCollectible spinoff INWO.">
+    <meta name="keywords" content="Steve Jackson, Illuminati, Card Game, INWO, Secret Societies, Board Game Strategy">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome for search icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="app-container">
+        <!-- Sidebar Navigation -->
+        <aside>
+            <div class="brand">
+                <div class="brand-meta">
+                    <span id="coord-stamp">LAT: 30.2672° N · LON: 97.7431° W</span>
+                    <span id="version-tag">V1.0.0</span>
+                </div>
+                <h1>Steve Jackson's<br><em>Illuminati</em></h1>
+                <div class="brand-desc">
+                    Comprehensive mechanical, strategic, and historical index for building modern adaptations.
+                </div>
+            </div>
+            
+            <!-- Search Interface -->
+            <div class="search-wrapper">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" class="search-input" id="search-box" placeholder="Search the cabal records...">
+            </div>
+            
+            <!-- Navigation Links -->
+            <nav>
+                <div class="nav-title">Knowledge Base</div>
+                <ul class="nav-links" id="article-nav">
+                    <!-- Dynamic navigation injected here -->
+                </ul>
+            </nav>
+            
+            <!-- Sidebar Footer -->
+            <div class="aside-footer">
+                <span>PROJECT: projecti</span>
+                <span>CONFIDENCE: HIGH // VOLATILITY: WARM</span>
+                <span>© 2026 STEVE JACKSON GAMES REF ARCHIVE</span>
+            </div>
+        </aside>
+        
+        <!-- Main Panel Content -->
+        <main id="main-panel">
+            <span class="section-marker" id="marker-display">SECTION I</span>
+            <div class="section-title">
+                <span id="title-display">Archive Loading...</span>
+                <span class="section-meta" id="date-display">2026.06.23</span>
+            </div>
+            
+            <!-- Dynamic Content Area -->
+            <div id="content-display">
+                <!-- Articles or Bento Grid injected here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Card Detail Modal Overlay -->
+    <div class="overlay" id="card-overlay">
+        <div class="modal-content">
+            <button class="close-btn" id="close-modal-btn">✕</button>
+            <div class="modal-grid">
+                <div class="modal-image-wrapper">
+                    <img class="modal-image" id="modal-card-img" src="" alt="Card image">
+                </div>
+                <div class="modal-info">
+                    <span class="modal-type" id="modal-card-type">GROUP CARD</span>
+                    <h2 id="modal-card-name">Card <em>Name</em></h2>
+                    
+                    <div class="modal-stats" id="modal-card-stats">
+                        <!-- Stat items injected here -->
+                    </div>
+                    
+                    <p class="modal-desc" id="modal-card-desc">
+                        Card capability description and gameplay adaptation concepts go here.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Embedded KB Data & Application Code -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

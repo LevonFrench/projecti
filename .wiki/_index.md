@@ -11,4 +11,5 @@ This directory serves as the knowledge base for our card game project, following
 - [[datasets/_index|Manifest Datasets (datasets/)]] ([datasets/](datasets/_index.md)) - File lists for external datasets.
 
 ## Recent Changes
+- [2026-06-23] Expanded Steve Jackson's Illuminati card game reference database with rules, expansions, strategies, and spinoffs.
 - [2026-06-23] Initialized knowledge base and subdirectories.

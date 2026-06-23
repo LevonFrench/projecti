@@ -16,6 +16,11 @@ Our modern adaptation utilizes the strategic alignment principles, power hierarc
 - [[groups|Group Cards Database]] ([Group Cards Database](groups.md)) - The complete registry of all 83 Group cards from the base game, categorized by their primary alignments, including their stats, special abilities, and gameplay adaptations.
 - [[specials|Special Cards Database]] ([Special Cards Database](specials.md)) - The 15 Special (action) cards, their effects, and their adaptation as special action options.
 - [[mechanics|Illuminati Gameplay Mechanics]] ([Illuminati Gameplay Mechanics](mechanics.md)) - The core turn states, mathematical formulas for conflict (Control, Neutralize, Destroy), bidding systems, and trade protocols.
+- [[inwo|Illuminati: New World Order (INWO)]] ([Illuminati: New World Order (INWO)](inwo.md)) - Analysis of the collectible card game spinoff, its mechanical differences, sets, and cultural conspiracy folklore.
+- [[expansions|Classic Boxed Game Expansions]] ([Classic Boxed Game Expansions](expansions.md)) - Detailed overview of the classic game expansions, including the Brainwash mechanics and Deluxe edition rules.
+- [[strategies|Strategy & Tactics Guide]] ([Strategy & Tactics Guide](strategies.md)) - Strategic and tactical guide detailing playstyles, topologies, and bidding war strategies.
+- [[history_and_creator|History and Creator Reference]] ([History and Creator Reference](history_and_creator.md)) - Biography of Steve Jackson, founding of SJG, and the landmark 1990 Secret Service raid.
+- [[editions_and_variants|Editions and Variants Reference]] ([Editions and Variants Reference](editions_and_variants.md)) - Chronology of board game editions, CCGs, standalones, and digital releases.
 - [[new_cards|New Card Ideas]] ([New Card Ideas](new_cards.md)) - A researched catalog of potential new cards sourced from modern internet culture, politics, and conspiracy theories.
 - [[new_cards_suggested|Suggested New Card Ideas]] ([Suggested New Card Ideas](new_cards_suggested.md)) - An expanded, researched catalog of additional modern conspiracy and internet culture card concepts.
 
