@@ -31,3 +31,9 @@ Initialized the git repository, created the initial commit, pushed it to the rem
 16. Implemented client-side SPA routing, custom Markdown-to-HTML parser, search filters, and detail overlay popup modals in [app.js](file:///j:/projects/projecti/website/app.js).
 17. Ran local HTTP server and browser tests to verify layouts; fixed `grid-template-cols` typos in `.gallery-grid` and `.modal-grid` within `styles.css` to restore proper desktop multi-column and modal displays.
 18. Logged compilation and website tasks in `.wiki/log.md`, and marked all checklist items complete in `task.md`.
+19. Researched and located a complete set of Illuminati card scans in PDF format on Archive.org.
+20. Downloaded both PDF files (Part I = 25.72 MB, Part II = 34.04 MB) to the `.wiki/inbox/` directory.
+21. Created the `.wiki/raw/papers/` directory and moved the PDFs into it for permanent storage.
+22. Created raw metadata stubs `2026-06-23-illuminati-card-game-part-i-complete-list.md` and `2026-06-23-illuminati-card-game-part-ii-complete-list.md` detailing the sources.
+23. Generated the `raw/papers/_index.md` catalog, and updated `raw/_index.md`, `.wiki/_index.md`, and `.wiki/log.md` to index and record the card scans.
+24. Synchronized all documentation (task checklist, walkthrough, and log) for session handoff.
