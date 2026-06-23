@@ -1,0 +1,36 @@
+{
+  "audit_id": "2026-06-23T20:41:00Z",
+  "scope": "artifact: website",
+  "summary": {
+    "wiki_findings": 0,
+    "outputs_scanned": 1,
+    "drifted_outputs": 0,
+    "research_escalations": 1,
+    "provenance_state": "partial"
+  },
+  "wiki": {
+    "topic": "illuminati",
+    "status": "synchronized"
+  },
+  "outputs": {
+    "j:\\projects\\projecti\\website": {
+      "verdict": "clean",
+      "drift_status": "in_sync",
+      "gaps": [
+        "raw/papers/ primary sources are not compiled into data.js"
+      ],
+      "last_compiled": "2026-06-23T20:20:12.391Z"
+    }
+  },
+  "investigations": [
+    {
+      "claim": "Reference website database matches the knowledge base state",
+      "verdict": "supported",
+      "details": "Verified that all 12 topic articles in .wiki/wiki/topics/illuminati/ have mtimes prior to the database compilation timestamp."
+    }
+  ],
+  "provenance": {
+    "state": "partial",
+    "notes": "walkthrough.md and task.md exist, but .session-events.jsonl is not initialized."
+  }
+}
