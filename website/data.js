@@ -1,6 +1,6 @@
 // Auto-generated from compile_kb.js. Do not edit directly.
 window.WIKI_DATA = {
-    generatedAt: "2026-06-23T21:13:50.727Z",
+    generatedAt: "2026-06-23T22:27:25.398Z",
     cardAssets: [
     "2nd-bullet.gif",
     "adepts.gif",

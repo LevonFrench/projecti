@@ -13,3 +13,6 @@
 ## [2026-06-23] compile | Updated compile_kb.js to index card images from the wiki and automatically copy/synchronize them to the website assets folder, and resolved app.js file extension formatting.
 ## [2026-06-23] research | Researched game duration, collected session logs, and compiled core specs: turn_sequence_details.md, stats_tracking.md, rule_logic_spec.md, and backend_architecture_plan.md.
 ## [2026-06-23] ingest | Ingested playtime research and sample session transcript recap under raw/papers/.
+## [2026-06-23] build | Customized card design editor (Cider) with the compiled 192 card Illuminati database, attributes, templates, and production build.
+## [2026-06-23] deploy | Bundled reference website to `/website/` path in Cider build assets, recompiled clean website data, and deployed production release to Vercel.
+

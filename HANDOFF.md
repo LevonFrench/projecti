@@ -52,3 +52,15 @@ Initialized the git repository, created the initial commit, pushed it to the rem
 37. Ran browser subagent verification tests at `http://localhost:8000/` to confirm proper sidebar order, rendering, formatting, and layout for the new specification files, capturing validation screenshots.
 38. Excluded `new_cards.md` and `new_cards_suggested.md` from the website compilation configuration in `website/compile_kb.js` and re-built `website/data.js` to remove them from the public website's database and sidebar navigation.
 39. Ran browser subagent verification tests to confirm the successful removal of the card ideas from the live website sidebar.
+40. Custom Card Builder Studio Configuration:
+    - Created `scratch/create_illuminati_json.js` to parse the 192 Faction, Group, Special, and Suggested cards from the `.wiki` topic directory and compiled them into a Cider-compliant JSON database schema `illuminati.json`.
+    - Styled premium cyberpunk/conspiracy card front templates (`Illuminati Front`) using Google Fonts and custom CSS/HTML grid layout. Renders clean dynamic SVG vector seals for each card type (pyramids, networks, warning signs, idea bulbs).
+    - Styled a rotating tech-ring and scanning laser card back template (`Illuminati Back`).
+    - Modified `db.ts` to swap the default database path to the compiled `illuminati.json`, ensuring the app initializes preloaded with the custom card database.
+    - Successfully compiled a production-ready client bundle in `dist/cider/browser/` (which can be hosted statically on platforms like GitHub Pages).
+    - Verified database imports, attributes layout, and card previews inside browser environments via browser subagent. Saved screenshots of the previews.
+62. Reference Website Integration & Redeployment:
+    - Excluded proposed card ideas from the reference website bundle (`website/data.js`) by filtering `new_cards.md` and `new_cards_suggested.md` out in `compile_kb.js`.
+    - Integrated the reference website directory into Cider's Angular build system (`angular.json` assets block) under `/website/`.
+    - Built and deployed the clean production version to Vercel (`https://cider-illuminati.vercel.app/`) where the reference website is now hosted at `/website/` and the Cider editor is at `/`.
+
