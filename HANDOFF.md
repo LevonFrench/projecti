@@ -1,6 +1,6 @@
 # Handoff
 
-Initialized the git repository, created the initial commit, pushed it to the remote origin, compiled the Illuminati card game knowledge base, built the reference website, extracted card scans, and verified correct gallery rendering.
+Initialized the git repository, created the initial commit, pushed it to the remote origin, compiled the Illuminati card game knowledge base, built the reference website, extracted card scans, ingested playtime and session transcripts, and created comprehensive design specifications.
 
 ## Actions Completed
 1. Created `README.md` with "# projecti".
@@ -43,3 +43,10 @@ Initialized the git repository, created the initial commit, pushed it to the rem
 28. Spun up a python http.server background task on port 8000 to host the website for browser-based QA.
 29. Executed a browser subagent QA check at `http://localhost:8000/`, successfully navigating the "Card Art Previews" gallery, confirming all 517 card assets load properly, clicking card `card_p1_002.png`, and verifying that the modal popup renders the high-quality PNG image and stats layout correctly.
 30. Captured validation screenshots (`card_modal_view` and `card_p1_002_modal`) and updated `walkthrough.md` and `task.md` with the results.
+31. Researched playtime and duration statistics, detailing scaling parameters, player counts, crab-bucket dynamics, and quick-play rules.
+32. Ingested raw research papers `2026-06-23-illuminati-game-duration-analysis.md` and a play-by-play sample session log `2026-06-23-illuminati-sample-session-recap.md` under `.wiki/raw/papers/`, registering them in index files and activity logs.
+33. Created three new core design documents: `turn_sequence_details.md` (resolution of the 7 turn phases, free actions, timing, and trade protocols), `stats_tracking.md` (tree graph node models, dynamic power/resistance buffs, and decentralized treasuries), and `rule_logic_spec.md` (success check algorithms, roll modification formulas, and graph state updates).
+34. Created `backend_architecture_plan.md` specifying the server stack, Postgres database tables, Redis live match schemas, and JSON WebSocket communication payloads.
+35. Modified `website/compile_kb.js` to include the four new specifications in the sidebar navigation layout ordering.
+36. Executed Node compilation to build the expanded articles database into `website/data.js`.
+37. Ran browser subagent verification tests at `http://localhost:8000/` to confirm proper sidebar order, rendering, formatting, and layout for the new specification files, capturing validation screenshots.

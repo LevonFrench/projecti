@@ -16,6 +16,10 @@ Our modern adaptation utilizes the strategic alignment principles, power hierarc
 - [[groups|Group Cards Database]] ([Group Cards Database](groups.md)) - The complete registry of all 83 Group cards from the base game, categorized by their primary alignments, including their stats, special abilities, and gameplay adaptations.
 - [[specials|Special Cards Database]] ([Special Cards Database](specials.md)) - The 15 Special (action) cards, their effects, and their adaptation as special action options.
 - [[mechanics|Illuminati Gameplay Mechanics]] ([Illuminati Gameplay Mechanics](mechanics.md)) - The core turn states, mathematical formulas for conflict (Control, Neutralize, Destroy), bidding systems, and trade protocols.
+- [[turn_sequence_details|Turn Sequence Details]] ([Turn Sequence Details](turn_sequence_details.md)) - In-depth specification of the 7 turn phases, timing windows, free action chains, and deal binding.
+- [[stats_tracking|State Tracking & Treasury Spec]] ([State Tracking & Treasury Spec](stats_tracking.md)) - System spec for representing the power structure graph, decentralized treasuries, and dynamic stat calculations.
+- [[rule_logic_spec|Rule Logic Spec]] ([Rule Logic Spec](rule_logic_spec.md)) - Mathematical and algorithmic specification of roll resolution, alignment calculations, and graph transitions.
+- [[backend_architecture_plan|Backend Architecture Plan]] ([Backend Architecture Plan](backend_architecture_plan.md)) - System blueprint for a multiplayer game server, database schema, and real-time WebSocket protocol payloads.
 - [[inwo|Illuminati: New World Order (INWO)]] ([Illuminati: New World Order (INWO)](inwo.md)) - Analysis of the collectible card game spinoff, its mechanical differences, sets, and cultural conspiracy folklore.
 - [[expansions|Classic Boxed Game Expansions]] ([Classic Boxed Game Expansions](expansions.md)) - Detailed overview of the classic game expansions, including the Brainwash mechanics and Deluxe edition rules.
 - [[strategies|Strategy & Tactics Guide]] ([Strategy & Tactics Guide](strategies.md)) - Strategic and tactical guide detailing playstyles, topologies, and bidding war strategies.
