@@ -97,7 +97,7 @@ function compile() {
     });
 
     // Extract list of downloaded cards from assets directory for dynamic loading
-    const assetsDir = path.join(kbDir, 'assets');
+    const assetsDir = path.join(__dirname, 'assets');
     let cardAssets = [];
     if (fs.existsSync(assetsDir)) {
         cardAssets = fs.readdirSync(assetsDir).filter(f => f.endsWith('.gif') || f.endsWith('.png') || f.endsWith('.jpg'));

@@ -503,7 +503,7 @@ class ArchiveApp {
             galleryHtml += `
                 <div class="card-item" data-file="${file}">
                     <div class="card-image-wrapper">
-                        <img class="card-gif" src="../.wiki/wiki/topics/illuminati/assets/${file}" alt="${cardInfo.name}">
+                        <img class="card-gif" src="assets/${file}" alt="${cardInfo.name}">
                     </div>
                     <div class="card-title">${cardInfo.name}</div>
                     <div class="card-alignment">${cardInfo.type}</div>
@@ -533,7 +533,7 @@ class ArchiveApp {
             desc: "Archived card asset from Steve Jackson Games' collectible card releases. Stats are currently unclassified."
         };
         
-        this.modalImg.src = `../.wiki/wiki/topics/illuminati/assets/${file}`;
+        this.modalImg.src = `assets/${file}`;
         this.modalName.innerHTML = cardInfo.name;
         this.modalType.innerText = cardInfo.type;
         this.modalDesc.innerText = cardInfo.desc;
