@@ -499,7 +499,7 @@ class ArchiveApp {
         `;
         
         this.cardAssets.forEach(file => {
-            const cardInfo = CARD_MAP[file] || { name: file.replace('.gif', '').replace(/_/g, ' '), type: "UNKNOWN" };
+            const cardInfo = CARD_MAP[file] || { name: file.replace(/\.[^/.]+$/, '').replace(/_/g, ' '), type: "UNKNOWN" };
             galleryHtml += `
                 <div class="card-item" data-file="${file}">
                     <div class="card-image-wrapper">
@@ -527,7 +527,7 @@ class ArchiveApp {
     
     showCardDetails(file) {
         const cardInfo = CARD_MAP[file] || {
-            name: file.replace('.gif', '').replace(/_/g, ' '),
+            name: file.replace(/\.[^/.]+$/, '').replace(/_/g, ' '),
             type: "Unclassified Card",
             stats: { Power: "N/A", Resistance: "N/A", Income: "N/A" },
             desc: "Archived card asset from Steve Jackson Games' collectible card releases. Stats are currently unclassified."

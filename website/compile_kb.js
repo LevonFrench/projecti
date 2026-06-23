@@ -96,11 +96,37 @@ function compile() {
         return indexA - indexB;
     });
 
-    // Extract list of downloaded cards from assets directory for dynamic loading
-    const assetsDir = path.join(__dirname, 'assets');
+    // Extract list of downloaded cards from wiki assets directory for dynamic loading
+    const wikiAssetsDir = path.join(kbDir, 'assets');
+    const websiteAssetsDir = path.join(__dirname, 'assets');
     let cardAssets = [];
-    if (fs.existsSync(assetsDir)) {
-        cardAssets = fs.readdirSync(assetsDir).filter(f => f.endsWith('.gif') || f.endsWith('.png') || f.endsWith('.jpg'));
+    if (fs.existsSync(wikiAssetsDir)) {
+        cardAssets = fs.readdirSync(wikiAssetsDir).filter(f => f.endsWith('.gif') || f.endsWith('.png') || f.endsWith('.jpg'));
+        
+        // Ensure website assets directory exists
+        if (!fs.existsSync(websiteAssetsDir)) {
+            fs.mkdirSync(websiteAssetsDir, { recursive: true });
+        }
+        
+        // Copy each asset from wiki to website assets if not present or size differs
+        cardAssets.forEach(file => {
+            const srcPath = path.join(wikiAssetsDir, file);
+            const destPath = path.join(websiteAssetsDir, file);
+            
+            let shouldCopy = true;
+            if (fs.existsSync(destPath)) {
+                const srcStat = fs.statSync(srcPath);
+                const destStat = fs.statSync(destPath);
+                if (srcStat.size === destStat.size) {
+                    shouldCopy = false;
+                }
+            }
+            
+            if (shouldCopy) {
+                fs.copyFileSync(srcPath, destPath);
+                console.log(`Copied asset to website: ${file}`);
+            }
+        });
     }
     
     const outputContent = `// Auto-generated from compile_kb.js. Do not edit directly.

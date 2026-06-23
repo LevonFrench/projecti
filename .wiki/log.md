@@ -9,3 +9,5 @@
 ## [2026-06-23] ingest | Illuminati Card Game Part I - Complete List (raw/papers/2026-06-23-illuminati-card-game-part-i-complete-list.md)
 ## [2026-06-23] ingest | Illuminati Card Game Part II - Complete List (raw/papers/2026-06-23-illuminati-card-game-part-ii-complete-list.md)
 ## [2026-06-23] audit | scope=website, outputs=1, drifted=0, escalations=1
+## [2026-06-23] extract | Programmatically extracted 496 high-quality card images from the ingested Illuminati scan PDFs into the topics assets directory.
+## [2026-06-23] compile | Updated compile_kb.js to index card images from the wiki and automatically copy/synchronize them to the website assets folder, and resolved app.js file extension formatting.

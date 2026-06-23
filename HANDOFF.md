@@ -1,6 +1,6 @@
 # Handoff
 
-Initialized the git repository, created the initial commit, pushed it to the remote origin, compiled the Illuminati card game knowledge base, and built the reference website.
+Initialized the git repository, created the initial commit, pushed it to the remote origin, compiled the Illuminati card game knowledge base, built the reference website, extracted card scans, and verified correct gallery rendering.
 
 ## Actions Completed
 1. Created `README.md` with "# projecti".
@@ -36,4 +36,10 @@ Initialized the git repository, created the initial commit, pushed it to the rem
 21. Created the `.wiki/raw/papers/` directory and moved the PDFs into it for permanent storage.
 22. Created raw metadata stubs `2026-06-23-illuminati-card-game-part-i-complete-list.md` and `2026-06-23-illuminati-card-game-part-ii-complete-list.md` detailing the sources.
 23. Generated the `raw/papers/_index.md` catalog, and updated `raw/_index.md`, `.wiki/_index.md`, and `.wiki/log.md` to index and record the card scans.
-24. Synchronized all documentation (task checklist, walkthrough, and log) for session handoff.
+24. Created and executed python script `scratch/extract_cards.py` to extract 496 high-quality PNG card images from the downloaded PDFs into `.wiki/wiki/topics/illuminati/assets/`.
+25. Modified `website/compile_kb.js` to scan `.wiki/wiki/topics/illuminati/assets/` for all GIF/PNG/JPG card assets and copy new or modified files directly to the web app's `website/assets/` folder automatically.
+26. Updated `website/app.js` card name formatting to strip any file extension dynamically using regex instead of hardcoding `.gif`, ensuring both GIFs and PNGs are correctly titled (e.g., `card_p1_002` instead of `card_p1_002.png`).
+27. Ran database compiler (`node website/compile_kb.js`) which correctly processed and synchronized all 496 PNG card images and updated the browser data bundle `website/data.js`.
+28. Spun up a python http.server background task on port 8000 to host the website for browser-based QA.
+29. Executed a browser subagent QA check at `http://localhost:8000/`, successfully navigating the "Card Art Previews" gallery, confirming all 517 card assets load properly, clicking card `card_p1_002.png`, and verifying that the modal popup renders the high-quality PNG image and stats layout correctly.
+30. Captured validation screenshots (`card_modal_view` and `card_p1_002_modal`) and updated `walkthrough.md` and `task.md` with the results.
